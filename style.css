@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
+    background-position: center;
+    background-size:cover ;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+.logo img{
+    width: 60px;
+    float: left;
+    cursor: pointer;
+    border-radius: 100%;
+    background: transparent;
+    background: white;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+    }
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: -15%;
+}
+ ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 2%;
+    font-size: 14px;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.content{
+width: 1200px;
+height: auto;
+margin: auto;
+color: rgb(246, 247, 247);
+position: relative;
+margin-top: 50px;
+}
+.content h1{
+    margin-top: 200px;
+    font-size: 50px;
+   
+}
+.content h1 span{
+    text-shadow: 0 0 10px #0b0b0b;
+    color: #f29d48;
+    font-size: 50px;
+}
+.form{
+    width: 250px;
+    height: 400px;
+    background: rgba(255, 255,255, 0.2);
+    border: 1px solid rgba(255,255,255, 0.3);
+    position: absolute;
+    top: -80px;
+    left: 700px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 30px #f29d48;
+    backdrop-filter: blur(5px);
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: aqua;
+    font-size: 22px;
+    background-color: #fbfdfe;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 7px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(63, 83, 233);
+    border-left:none ;
+    border-top: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aqua;
+     transition: .5s ease ;  
+}
+.btnn:hover{
+    background: #35b5fa;
+} 
+.btnn a{
+    text-decoration: none;
+    color: #0e0d0d;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: aqua;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons h3{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition:  0.5s ease;
+    margin-left: 15px;
+    margin-top: 10px;
+}    
+.icons h4{
+    color: #fbf8f8;
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition:  0.5s ease;
+    margin-left: 150px;
+    margin-top: -45px;
+}    
+.content h2{
+    font-size: 25px;
+   margin-top: -12px;
+}
+.par span{
+    color: rgb(250, 246, 247);
+    font-weight: 500;
+    font-size: 20px;
+}
+ .forgot-password a{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.forgot-password a:hover{
+    text-decoration: underline;
+    color:#f29d48
+}
